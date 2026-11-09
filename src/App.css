@@ -1,0 +1,43 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101827;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+h1 {
+  color: #60a5fa;
+}
+
+.student-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin: 10px 8px 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
